@@ -16,7 +16,7 @@ public class flour {
     }
     public static boolean canPack(int bigCount,int smallCount,int goal)
     {
-        int n,a;
+
         bigCount =bigCount*5;
         if (bigCount <0)
         {
