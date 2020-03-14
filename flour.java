@@ -26,6 +26,10 @@ public class flour {
         {
             return true;
         }
+        else if (bigCount>goal)
+        {
+            return false;
+        }
         else
             return true;
     }
